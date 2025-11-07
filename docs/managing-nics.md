@@ -21,7 +21,7 @@ Use the command `nictagadm` to list nic tags.
 
 Because nic_tags are just a text string, it can be anything you want. Nothing
 prevents you from having a `dmz` or `private`. If you use Juniper network
-hardware, you may prever `trust` and `untrust`.
+hardware, you may prefer `trust` and `untrust`.
 
 Interfaces, both for the global zone, and for instances, are configured by
 associating them with a nic_tag.
@@ -47,7 +47,7 @@ Valid config keys:
 | `<nic_tag>XX_vlan_id`  | VLAN ID number (`2` - `4096`)          |
 
 The `<nic_tag>_nic` key is the only parameter necessary to define a nic_tag. In
-general, it is not recomended that the global zone plumb an interface on every
+general, it is not recommended that the global zone plumb an interface on every
 nic_tag.
 
 To configure an interface over a nic_tag, it needs to be assigned an *instance
@@ -73,7 +73,7 @@ be created as a vnic named `storage0`.
 
 #### `admin` and `external`
 
-The `admin` and `external` nic_tags are special cased in the following ways:
+The `admin` and `external` nic_tags are special cases in the following ways:
 
 * The `admin` interface is not configured using a vnic.
 * The `external` vnic does not use an instance number in the config. Instance
@@ -137,7 +137,7 @@ Networking in illumos, has *data links*, *interfaces*, and *addresses*.
 ### Data links
 
 A data-link is a physical interface, a vnic, an aggregation, or a VLAN. The
-`dladm` command is used to operate on dada links.
+`dladm` command is used to operate on data links.
 
 Here are some common examples:
 
@@ -150,7 +150,7 @@ See the `dladm` man page for more information.
 
 ### Interfaces and Addresses
 
-An *interface* is an abstratction where addresses can be configured. Multiple
+An *interface* is an abstraction where addresses can be configured. Multiple
 addresses can be configured on a single interface. E.g., you can have multiple
 IPv4 and/or IPv6 addresses on a single interface.
 
