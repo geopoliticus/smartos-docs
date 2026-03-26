@@ -56,6 +56,7 @@ nav:
             - "Instance Management":
                 - "Managing Instances with vmadm": "managing-instances-with-vmamd.md"
                 - "Instance Metadata": "customer_metadata.md"
+                - "Using Cloud-init with NoCloud Compatible Images": "using-nocloud-compatible-images.md"
         - "Managing Images": "managing-images.md"
         - "Administering SmartOS Native Instances":
             - "Managing Packages": "working-with-packages.md"
