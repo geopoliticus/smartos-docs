@@ -17,7 +17,7 @@ FAT disk containing these files:
 - [meta-data][meta-data]: contains the instance UUID and hostname; if no
   hostname is set, SmartOS falls back to the alias, then the UUID
 - [vendor-data][vendor-data]: reserved for SmartOS or Triton-supplied defaults
-  that users may override with `customer_metadata['cloud-init:vendor-data']`
+  that users may override with `customer_metadata['cloud-init:user-data']`
 - [network-config][network-config]: generated automatically from the instance's
   `nics` and `resolvers` metadata
 
